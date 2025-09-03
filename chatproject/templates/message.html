@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Messages</title>
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Headings -->
+        <h1>Private Chat</h1>
+        <h3>End-to-End Encryption</h3>
+
+        <!-- Chat Messages Section -->
+        <div id="message" class="message-box" style="height: 300px; overflow-y: auto;">
+            <!-- Messages will load here -->
+        </div>
+        <!-- Message Input Form -->
+        <form id="messageForm" class="chat-form">
+            <input type="text" id="messageInput" placeholder="Type your message here..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="helper.js"></script>
+    <script src="message.js"></script>
+    
+</body>
+</html>
